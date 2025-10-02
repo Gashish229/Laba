@@ -1,0 +1,11 @@
+#include<stdio.h>
+void happy(void)
+{
+    printf("Улыбайся!");
+}
+int main(void)
+{
+    happy(); happy(); happy(),printf("\n");
+    happy(); happy(); printf("\n");
+    happy();
+}
