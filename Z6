@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void)
+{
+    int toes;
+    toes=10;
+    int arch;
+    arch=toes*2;
+    int kv;
+    kv=toes*toes;
+
+    printf("Само число: %d\n", toes);
+    printf("Его удвоенное произведение: %d\n",arch);
+    printf("Его квадрат: %d\n",kv);
+    return 0;
+}
