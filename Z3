@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(void)
+{
+    int age;
+    age=18;
+    int day;
+    day= age*365;
+    printf("Ваш возраст %d лет, в днях это %d дней", age, day);
+    return 0;
+}
