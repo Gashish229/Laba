@@ -1,0 +1,21 @@
+#include<stdio.h>
+void one_three(void);
+void dva(void);
+
+int main(void)
+{
+    printf("Начинаем:\n");
+    one_three();
+    printf("порядок!\n");
+    return 0;
+}
+void one_three(void)
+{
+    printf("один\n");
+    dva();
+    printf("три\n");
+}
+void dva(void)
+{
+    printf("два\n");
+}
